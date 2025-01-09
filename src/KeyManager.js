@@ -7,7 +7,7 @@ const textAesUtil = require('./TextAesUtil.js');
 class KeyManager {
   // Generate random string with a length default to 24 words
   async generateSeedPhrase(length = 24) {
-    const randomWord = await import("random-words");
+    const randomWord = await import("random-words/index.js");
     const words = randomWord.generate(length);
     return words.join(' ');
   }
