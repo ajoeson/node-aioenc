@@ -1,0 +1,6 @@
+
+async function test() {
+  
+}
+
+test();
