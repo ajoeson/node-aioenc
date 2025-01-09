@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@cityssm/random-words@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@cityssm/random-words/-/random-words-1.2.1.tgz#002c72379c1ecb866b061fee5fff2184dc91d0f4"
+  integrity sha512-mAnB+qNnTGDjMGdCOLURQatk2BrxRY+FHKTaBOIAF/Rb09BP9clalRt+903Y+rjZpzOPj/uahyF4FtY3ihbZ6w==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -680,13 +685,6 @@ possible-typed-array-names@^1.0.0:
   resolved "https://registry.yarnpkg.com/possible-typed-array-names/-/possible-typed-array-names-1.0.0.tgz#89bb63c6fada2c3e90adc4a647beeeb39cc7bf8f"
   integrity sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==
 
-random-words@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/random-words/-/random-words-2.0.1.tgz#cc4564385d040c9fad2b817621a0041a1ecc90f6"
-  integrity sha512-nZNJAmgcFmtJMTDDIUCm/iK4R6RydC6NvALvWhYItXQrgYGk1F7Gww416LpVROFQtfVd5TaLEf4WuSsko03N7w==
-  dependencies:
-    seedrandom "^3.0.5"
-
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -719,11 +717,6 @@ safe-regex-test@^1.1.0:
     call-bound "^1.0.2"
     es-errors "^1.3.0"
     is-regex "^1.2.1"
-
-seedrandom@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
-  integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
 
 serialize-javascript@^6.0.2:
   version "6.0.2"

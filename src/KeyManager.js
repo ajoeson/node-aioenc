@@ -2,13 +2,16 @@ const os = require('os');
 const fs = require('fs');
 const { scryptSync, createHash } = require("crypto");
 const textAesUtil = require('./TextAesUtil.js');
+const { getRandomWord } = require("@cityssm/random-words");
 
 // This is a class to manage the key, from generation to applying to encrypt utility.
 class KeyManager {
   // Generate random string with a length default to 24 words
   async generateSeedPhrase(length = 24) {
-    const randomWord = await import("random-words/index.js");
-    const words = randomWord.generate(length);
+    const words = [];
+    for (let i = 0; i < length; i++) {
+      words.push(getRandomWord());
+    }
     return words.join(' ');
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "aioenc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "All in one library focusing on Key Management, Encryption, and Decryption",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/ajoeson/node-aioenc#readme",
   "dependencies": {
-    "moment": "^2.30.1",
-    "random-words": "^2.0.1"
+    "@cityssm/random-words": "^1.2.1",
+    "moment": "^2.30.1"
   },
   "devDependencies": {
     "assert": "^2.1.0",
