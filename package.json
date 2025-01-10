@@ -1,6 +1,6 @@
 {
   "name": "aioenc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "All in one library focusing on Key Management, Encryption, and Decryption",
   "main": "index.js",
   "scripts": {
